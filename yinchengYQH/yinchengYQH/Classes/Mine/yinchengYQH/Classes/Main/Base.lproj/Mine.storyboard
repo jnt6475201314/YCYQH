@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B5q-1d-eJY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的-->
+        <scene sceneID="HlO-KV-V6p">
+            <objects>
+                <viewController id="B5q-1d-eJY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uDn-U8-YlF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iPj-GD-wMf">
+                                <rect key="frame" x="-3" y="234" width="600" height="600"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <viewLayoutGuide key="safeArea" id="MhM-G4-AIB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sbq-Lo-dNU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="tab_我_未选22" selectedImage="tab_我22" id="3hl-Ac-IwU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIN-Q4-j8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-548" y="965"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_我22" width="22" height="22"/>
+        <image name="tab_我_未选22" width="22" height="22"/>
+    </resources>
+</document>
